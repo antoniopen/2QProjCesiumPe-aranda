@@ -1,0 +1,126 @@
+  @font-face {
+		font-family: Titillium SemiBold;
+		src: url('../fonts/TitilliumWeb-SemiBold.ttf');
+	}
+
+  @font-face {
+		font-family: Titillium Bold;
+		src: url('../fonts/TitilliumWeb-Bold.ttf');
+	}
+
+  @font-face {
+		font-family: Titillium Regular;
+		src: url('../fonts/TitilliumWeb-Regular.ttf');
+	}
+
+	header.header {
+    position: relative;
+		font-family: Titillium Regular;
+		background-color: #1a1a25;
+    color: #ffffff;
+    height: 8vw;
+    border-radius: 8px;
+    overflow: hidden;
+	}
+
+	header.header a:link,
+	header.header a:visited {
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	header.header a:hover {
+		color: #ac0909;
+	}
+
+  main.content a:link,
+  main.content a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  main.content a:hover {
+    color: #ac0909;
+  }
+
+  #logo {
+    float: left; 
+    position: relative; 
+    left: 2.7vw; 
+    top: 2.6vw;
+  }
+
+  #navbar {
+    padding-top: 0.5vw;
+    margin-right: -1.75vw;
+    font-size: 1.95vw; 
+    word-spacing: 7.5vw; 
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  #currentpage {
+    font-weight: bold;
+  }
+
+	footer.footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: #ac0909;
+		color: #ffffff;
+    font-family: Titillium Regular;
+		font-size: 1.75vh;
+		word-spacing: 15px;
+	}
+
+	footer.footer a:link,
+	footer.footer a:visited {
+		color: #ffffff;
+    font-family: Titillium Regular;
+		text-decoration: none;
+	}
+
+	footer.footer a:hover {
+		color: #000000;
+  }
+
+  #req_code {
+    float: right; 
+    margin-right: 17.2px; 
+    word-spacing: normal; 
+  }
+
+	body {
+		background-color: #111118;
+	}
+
+  figure {
+    display: flex;
+    overflow: hidden;
+    margin: 0px;
+  }
+
+  .content {
+    font-family: Titillium Regular;
+    color: #ffffff;
+    font-size: 1.25vw;
+    display: grid;
+    grid-template-columns: repeat(10, 9%);
+    grid-column-gap: 1vw;
+    grid-row-gap: 2.5vw;
+    margin: 10px 1.2vw 5vw 0px;
+  }
+
+  main.content {
+    padding-left: 1.5vw;
+  }
+
+  h2 {
+    font-family: Titillium Bold;
+  }
+
+  #special_header {
+    color: #ac0909;
+  }
