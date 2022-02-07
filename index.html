@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Up to Speed</title>
+	<title>Up to Speed: A Fansite Dedicated to Formula 1</title>
 
 	<meta charset="UTF-8">
 	<meta name="author" content="Antonio Peñaranda">
@@ -16,10 +16,10 @@
 <body>
   <!-- website header + navigation bar, quite simplistic but i'm fine with it :) -->
 	<header class="header">
-		<img id="logo" src="images/uts_logo.png" width="16%" height="auto" alt="Logo of Up to Speed">
+		<a href=index.html><img id="logo" src="images/uts_logo.png" width="16%" height="auto" alt="Logo of Up to Speed"><a>
   
     <nav id="navbar">
-        <p><span><a id="currentpage" href=index.html>Home</a> <a href=htdocs/page1.html>History</a> <a href=page2.html>Entertainment</a> <a href=page3.html>Events</a> <a href=page4.html>Standings</a></span></p>
+        <p><span><a id="currentpage" href=index.html>Home</a> <a href=htdocs/page1.html>History</a> <a href=htdocs/page2.html>Entertainment</a> <a href=htdocs/page3.html>Events</a> <a href=htdocs/page4.html>Standings</a></span></p>
     </nav>
   </header>
   
@@ -37,7 +37,7 @@
     </section>
 
     <figure style="grid-column-start:1; grid-column-end:5">
-       <img style="border-radius:4px" src="images/f1_sk-gp-20_img.png" width="100%" height="auto" alt="Max Verstappen lighting up the track in the 2020 Sakhir Grand Prix">
+       <img style="border-radius:4px" src="images/f1_sk-gp-20_img.png" width="100%" height="auto" alt="Max Verstappen lighting up the track in the 2020 Sakhir GP">
     </figure>
     
     <!-- what is f1 ? -->
@@ -71,25 +71,35 @@
     <!-- why watch f1 ? -->
     <section style="grid-column-start:1; grid-column-end:11; margin-top:-1.5vw"> 
       <h2 id="special_header">Why get up to speed with Formula One?</h2>
-      <p>In a way, it’s just brilliant. It’s properly brilliant, regardless if you like racing or not. It’s the fastest, the biggest, and not to be biased here, but also the best. Nothing is faster than an F1 car around a track, and nothing is as big as it is. Formula One is a racing spectacle that’s amazing to watch both on track and in the garages. The races can leave you on the edge of your seat, and the dramatic rivalries that form are just very entertaining to watch. Not only that, but the history of the sport itself is fascinating to read through. F1 traces its roots all the way back to the start of racing. Without it, there would be no other motorsports today. And no other competition has the same rich tradition and group of names. Ferrari, Mercedes, McLaren, Senna, Schumacher, Hamilton. These titans of the sport, and many more, make up only a part of this magnificent and grandiose sport’s history.</p>
+      <p>In a way, it’s just brilliant. It’s properly brilliant, regardless if you like racing or not. It’s the fastest, the biggest, and the best. Nothing is faster than an F1 car around a track, and nothing is as big as it is. Formula One is a racing spectacle that’s amazing to watch both on track and in the garages. The races can leave you on the edge of your seat, and the dramatic rivalries that form are just very entertaining to watch. Not only that, but the history of the sport itself is fascinating to read through. F1 traces its roots all the way back to the start of racing. Without it, there would be no other motorsports today. And no other competition has the same rich tradition and group of names. Ferrari, Mercedes, McLaren, Senna, Schumacher, Hamilton. These titans of the sport, and many more, make up only a part of this magnificent and grandiose sport’s history.</p>
     </section>
     
     <!-- youtube video for an introduction to f1 + links to other pages -->
-    <section style="grid-column-start:1; grid-column-end:6; padding-bottom:10vw; height:26vw; margin-top:-2.5vw">
+    <section style="grid-column-start:1; grid-column-end:6; padding-bottom:7.5vw; height:26vw; margin-top:-2.5vw">
       <h2>For more about F1:</h2>
-      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/i0ELv2urrZg?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/i0ELv2urrZg?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
 
     <section style="grid-column-start:6; grid-column-end:11; height:26vw; margin-top:-2.5vw">
-     <h2 style="visibility:hidden">For more about F1:</h2>
-     <a href=htdocs/page2.html><img style="border-radius:4px" src="images/f1_msc-ham-sen_img.png" width="auto" height="100%" alt="The three titans of Formula One"></a>
+     <h2 style="visibility:hidden"> </h2>
+     <a href=htdocs/page2.html#guide><img style="border-radius:4px" class="image_link_hover" src="images/f1_msc-ham-sen_img.png" width="auto" height="100%" alt="The three titans of Formula One"></a>
     </section>
   </main>
   
   <!-- website footer -->
   <footer class="footer">
-    <p><span style="margin-left:17.2px"><a href=htdocs/about.html>About</a> <a href=htdocs/resources.html>Resources</a> <a href=htdocs/contacts.html>Contacts</a></span><span id="req_code">Antonio Raul L. Peñaranda Ⓒ 2021</span></p>
+    <p>
+      <span style="margin-left:17.2px"><a href=htdocs/about.html>About</a> <a href=htdocs/resources.html>Resources</a></span> 
+      <a class="social-icon" href="https://www.facebook.com/antonio.penaranda.988" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a class="social-icon" style="margin-left:12.25vw" href="https://www.instagram.com/antonioraulpshs/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a class="social-icon" style="margin-left:15vw" href="mailto:antoniopen1204@gmail.com" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
+      <a class="social-icon" style="margin-left:17.75vw" href="https://www.formula1.com" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+      <span id="req_code">Antonio Raul L. Peñaranda Ⓒ 2021</span>
+    </p>
   </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Up to Speed</title>
+	<title>F1 History - Up to Speed</title>
 
 	<meta charset="UTF-8">
 	<meta name="author" content="Antonio Peñaranda">
@@ -11,23 +11,23 @@
 
 	<link rel="icon" type="image/png" href="../images/uts_favicon.png" />
 	<link rel="stylesheet" href="../css/style.css">
-  
-  <!-- did an inline css since i thought it would be inefficient to make a class/id for the h2's in this page -->
-  <style>
-    h2 {
-      color: #ac0909;
-    }
 
-    article {
-      margin-top: -2.5vw;
-    }
-  </style>
+	<!-- did an inline css since i thought it would be inefficient to make a class/id for the h2's in this page -->
+	<style>
+		h2 {
+			color: #ac0909;
+		}
+
+		article {
+			margin-top: -2.5vw;
+		}
+	</style>
 </head>
 
 <body>
-  <!-- website header + navigation bar -->
+	<!-- website header + navigation bar -->
 	<header class="header">
-	  <img id="logo" src="../images/uts_logo.png" width="15.8%" height="auto" title="UTS Logo" alt="Logo of Up to Speed">
+		<a href=../index.html><img id="logo" src="../images/uts_logo.png" width="15.8%" height="auto" alt="Logo of Up to Speed"><a>
 
     <nav id="navbar">
         <p><span><a href=../index.html>Home</a> <a id="currentpage" href=page1.html>History</a> <a href=page2.html>Entertainment</a> <a href=page3.html>Events</a> <a href=page4.html>Standings</a></span></p>
@@ -38,7 +38,7 @@
   <main class="content">
     <!-- look at this cool collage thing i made B) -->
     <figure style="grid-column-start:1; grid-column-end:11; margin-top: 1.5vw; margin-right:-0.5vw">
-       <img style="border-radius:4px" src="../images/f1_sf-evolution-header_img.png" width="100%" height="auto" title="Evolution of Scuderia Ferrari F1 Cars" alt="Evolution of the various F1 cars designed by Scuderia Ferrari">
+       <img style="border-radius:4px" src="../images/f1_sf-evolution-header_img.png" width="100%" height="auto" alt="Evolution of the various F1 cars designed by Scuderia Ferrari">
     </figure>
     
     <!-- f1 history intro -->
@@ -209,8 +209,18 @@
 
   <!-- website footer -->
   <footer class="footer">
-    <p><span style="margin-left:17.2px"><a href=about.html>About</a> <a href=resources.html>Resources</a> <a href=contacts.html>Contacts</a></span><span id="req_code">Antonio Raul L. Peñaranda Ⓒ 2021</span></p>
+    <p>
+      <span style="margin-left:17.2px"><a href=about.html>About</a> <a href=resources.html>Resources</a></span> 
+      <a class="social-icon" href="https://www.facebook.com/antonio.penaranda.988" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a class="social-icon" style="margin-left:12.25vw" href="https://www.instagram.com/antonioraulpshs/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a class="social-icon" style="margin-left:15vw" href="mailto:antoniopen1204@gmail.com" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
+      <a class="social-icon" style="margin-left:17.75vw" href="https://www.formula1.com" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+      <span id="req_code">Antonio Raul L. Peñaranda Ⓒ 2021</span>
+    </p>
   </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

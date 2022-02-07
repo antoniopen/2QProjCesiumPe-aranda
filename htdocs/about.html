@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Up to Speed</title>
+	<title>About Us</title>
 
 	<meta charset="UTF-8">
 	<meta name="author" content="Antonio Peñaranda">
@@ -11,21 +11,12 @@
 
 	<link rel="icon" type="image/png" href="../images/uts_favicon.png" />
 	<link rel="stylesheet" href="../css/style.css">
-  
-  <!-- similar to the history page, i used inline css for h2 -->
-  <style>
-    h2 {
-      color: #ac0909;
-    }
-  </style>
 </head>
 
 <body>
   <!-- website header + navigation bar -->
 	<header class="header">
-		<div>
-			<img id="logo" src="../images/uts_logo.png" width="15.8%" height="auto" title="UTS Logo" alt="Logo of Up to Speed">
-    </div>
+		<a href=../index.html><img id="logo" src="../images/uts_logo.png" width="15.8%" height="auto" alt="Logo of Up to Speed"><a>
 
     <nav id="navbar">
         <p><span><a href=../index.html>Home</a> <a href=page1.html>History</a> <a href=page2.html>Entertainment</a> <a href=page3.html>Events</a> <a href=page4.html>Standings</a></span></p>
@@ -34,20 +25,36 @@
   
   <!-- start of page content -->
   <main class="content">
-    <section style="grid-column-start:1; grid-column-end:11">
-       <h2>References</h2>
-        <p><a href="http://en.espn.co.uk/f1/motorsport/story/3836.html">A timeline of Formula One</a></p>
-        <p><a href="https://www.f1-grandprix.com/?page_id=18">History of Formula One</a></li>
-        <p><a href="https://www.espn.co.uk/f1/story/_/id/13715980/about-formula-1">About Formula 1</a></p>
-        <p><a href="http://atlasf1.autosport.com/news/safety.html">Safety Improvements in F1 since 1963</a></p>
-        <!-- the f1 subreddit + f1 photography subreddits are filled with amazing and high quality photos, check them out! -->
-    </section>
+    <figure style="grid-column-start:1; grid-column-end:11; padding-top: 1.4vw; margin-right:-0.5vw">
+       <img style="border-radius:4px" src="../images/f1_vettel-sg-gp-header_img.png" width="100%" height="auto" alt="Vettel climbing out of his car after winning the 2019 Singapore GP">
+    </figure>
+
+    <article style="grid-column-start:2; grid-column-end:9; margin-top:-1.25vw">
+      <p>Up to Speed is a Formula 1 website aimed for newer fans of the sport. With a great passion for Formula 1 and motorsport, it is our goal to provide our visitors with news, history, entertainment, and results a best as possible. This site was created as a project for Computer Science 3.</p>
+
+      <p>The team behind Up to Speed is located in the Philippines. It is comprised of one person.</p>
+
+      <p>Do you have questions, comments or complaints and would like to contact Up to Speed? Then contact us with the details below:</p>
+      <p><a href="https://www.facebook.com/antonio.penaranda.988" target="_blank">Facebook</a></p>
+      <p style="margin-top:-1.25vw"><a href="https://www.instagram.com/antonioraulpshs/" target="_blank">Instagram</a></p>
+      <p style="margin-top:-1.25vw"><a href="mailto:antoniopen1204@gmail.com" target="_blank">antoniopen1204@gmail.com</a></p>
+    </article>
   </main>
   
   <!-- website footer -->
   <footer class="footer">
-    <p><span style="margin-left:17.2px"><a href=htdocs/about.html>About</a> <a id="currentpage" href=htdocs/resources.html>Resources</a> <a href=htdocs/contacts.html>Contacts</a></span><span id="req_code">Antonio Raul L. Peñaranda Ⓒ 2021</span></p>
+    <p>
+      <span style="margin-left:17.2px"><a id="currentpage" href=about.html>About</a> <a href=resources.html>Resources</a></span> 
+      <a class="social-icon" href="https://www.facebook.com/antonio.penaranda.988" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a class="social-icon" style="margin-left:12.25vw" href="https://www.instagram.com/antonioraulpshs/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a class="social-icon" style="margin-left:15vw" href="mailto:antoniopen1204@gmail.com" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
+      <a class="social-icon" style="margin-left:17.75vw" href="https://www.formula1.com" target="_blank"><ion-icon name="open-outline"></ion-icon></a>
+      <span id="req_code">Antonio Raul L. Peñaranda Ⓒ 2021</span>
+    </p>
   </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

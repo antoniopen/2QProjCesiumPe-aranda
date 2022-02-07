@@ -27,6 +27,7 @@
 	header.header a:visited {
 		color: #ffffff;
 		text-decoration: none;
+    transition: color 0.2s;
 	}
 
 	header.header a:hover {
@@ -37,6 +38,7 @@
   main.content a:visited {
     color: #ffffff;
     text-decoration: none;
+    transition: all 0.2s;
   }
 
   main.content a:hover {
@@ -48,6 +50,11 @@
     position: relative; 
     left: 2.7vw; 
     top: 2.6vw;
+    transition: all 0.2s;
+  }
+
+  #logo:hover {
+    transform: scale(1.05);
   }
 
   #navbar {
@@ -80,6 +87,7 @@
 		color: #ffffff;
     font-family: Titillium Regular;
 		text-decoration: none;
+    transition: color 0.2s;
 	}
 
 	footer.footer a:hover {
@@ -111,16 +119,88 @@
     grid-column-gap: 1vw;
     grid-row-gap: 2.5vw;
     margin: 10px 1.2vw 5vw 0px;
+    transition: all 0.2s;
   }
 
   main.content {
     padding-left: 1.5vw;
   }
 
+  h1 {
+    font-size: 3vw;
+  }
+
   h2 {
     font-family: Titillium Bold;
   }
 
-  #special_header {
+  .image_link_hover {
+    box-shadow: 0 0 0;
+    transition: all 0.3s;
+  } 
+
+  .image_link_hover:hover {
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.3);
+    transform: scale(1.045);
+  }
+
+  .standings {
+    border-collapse: collapse;
+    font-size: 1.05em;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+  }
+
+  .standings thead tr {
+    background-color: #ac0909;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .standings th,
+  .standings td {
+    padding: 0.95vw 1.15vw;
+  }
+
+  .standings tbody tr {
+    border-bottom: 1px solid #21212e;
+  }
+
+  .standings tbody tr:nth-of-type(even) {
+    background-color: #14141c;
+  }
+
+  .standings tbody tr:last-of-type {
+    border-bottom: 1px solid #ac0909;
+  }
+
+  .social-icon {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		color: #ffffff;
+		font-size: 3.5vh;
+    margin-left: 9.5vw;
+    transition: color 0.3s;
+	}
+
+	.social-icon a:link,
+	.social-icon a:visited {
+		color: #ffffff;
+    font-family: Titillium Regular;
+		text-decoration: none;
+    transition: color 0.3s;
+	}
+
+	.social-icon a:hover {
+		color: #000000;
+  }
+
+  ion-icon {
+  pointer-events: none;
+  }
+
+  #special_header,
+  #guide {
     color: #ac0909;
   }
